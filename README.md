@@ -14,17 +14,17 @@ This guide explains how to install Oracle Database 11g XE and configure Oracle A
 ⚙️ 2. Setup Oracle APEX
   Step 1: Navigate to APEX Directory
    -Open Command Prompt and run:
-     1. bash
-     2. cd apex
-     3. sqlplus /nolog
-     4. CONNECT SYS AS SYSDBA
-     5. @apexins SYSAUX SYSAUX TEMP /i/
-     6. @apex_epg_config.sql C:\ **Replace C:\ with your APEX unzip directory if different**
-     7. @apxchpwd (After this you are able to have your Admin email address and password)**Remember this**
-     8. In broweser open this http://localhost:8080/apex/apex_admin.
+     - bash
+     - cd apex
+     - sqlplus /nolog
+     - CONNECT SYS AS SYSDBA
+     - @apexins SYSAUX SYSAUX TEMP /i/
+     - @apex_epg_config.sql C:\ **Replace C:\ with your APEX unzip directory if different**
+     - @apxchpwd (After this you are able to have your Admin email address and password)**Remember this**
+     - In broweser open this http://localhost:8080/apex/apex_admin.
     Write your username and password that you set up in number 7 step
-     9. Now after you login you need to create your Admin User so again Your need write your username that will be provided in your email passsword and email to create your shop.
-     10. http://127.0.0.1:8080/apex/ (Login to Apex)
+     - Now after you login you need to create your Admin User so again Your need write your username that will be provided in your email passsword and email to create your shop.
+     -. http://127.0.0.1:8080/apex/ (Login to Apex)
 
 **XAMPP SetUp Guide**
 1. Download XAMPP
