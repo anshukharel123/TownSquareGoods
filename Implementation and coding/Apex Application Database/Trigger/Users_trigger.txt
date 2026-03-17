@@ -1,0 +1,10 @@
+-- Create triggers
+CREATE OR REPLACE TRIGGER user_trigger
+BEFORE INSERT ON USERS
+FOR EACH ROW
+BEGIN
+    IF :NEW.user_id IS NULL THEN
+        :NEW.user_id := user_seq.NEXTVAL;
+    END IF;
+END;
+/

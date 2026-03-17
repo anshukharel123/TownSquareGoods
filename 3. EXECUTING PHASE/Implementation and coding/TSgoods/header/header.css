@@ -1,0 +1,67 @@
+.navigation {
+  position: fixed;
+  margin-top: 2px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.opt{
+  display: flex;
+  flex: 1;
+  padding: 5px;
+  align-items: center;
+  border-radius: 40px;
+  background-color:#776B5D;
+}
+.left{
+  flex: 0.8;
+  margin-left: 10px;
+  justify-content: space-between;
+  text-align: left;
+}
+.right{
+  flex: 0.8;
+  text-align: right;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+.middle{
+  flex: 1;
+  justify-content: space-between;
+}
+.logo{
+  height: 35px;
+  width: auto;
+  border-radius: 10px;
+  text-align: center;
+  object-fit: cover;
+}
+.menu{
+  width: 38px;
+  height: 38px;
+  margin-right: 8px;
+  border-radius: 50%;
+ 
+}
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+.searchbar{
+  height: 32px;
+  border-radius: 32px;
+  border-style: solid;
+}
+.searchbar::placeholder{
+  font-size: 20px;
+  padding: 15px;
+}
+
+button[type="submit"] {
+  background: none;
+  border: none;
+}
+

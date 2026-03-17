@@ -1,0 +1,8 @@
+-- Insert 5 records into USERS table
+-- INSERT INTO USERS (user_id, username, email, password, phone_no, gender, user_role)
+INSERT INTO USERS VALUES (user_seq.NEXTVAL, 'Simran Shrestha', 'ssimran21@tbc.edu.np', 'password', '1234', 'female', 'admin');
+INSERT INTO USERS VALUES(user_seq.NEXTVAL, 'Riya Shah', 'riya@tbc.edu.np', 'password', '1234', 'female', 'trader');
+INSERT INTO USERS VALUES(user_seq.NEXTVAL, 'Preshna Adhikari', 'apreshna21@tbc.edu.np', 'password', '1234', 'female', 'trader');
+INSERT INTO USERS VALUES(user_seq.NEXTVAL, 'Prayash Bhatarai', 'bhprayash22@tbc.edu.np', 'password', '1234', 'male', 'trader');
+INSERT INTO USERS VALUES(user_seq.NEXTVAL, 'Aseena', 'saseena22@tbc.edu.np', 'password', '1234', 'female', 'trader');
+INSERT INTO USERS VALUES(user_seq.NEXTVAL, 'Anshu', 'khanshu21@tbc.edu.np', 'password', '1234', 'female', 'trader');

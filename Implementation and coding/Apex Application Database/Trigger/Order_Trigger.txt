@@ -1,0 +1,9 @@
+CREATE OR REPLACE TRIGGER orderplace_trigger
+BEFORE INSERT ON ORDERPLACE
+FOR EACH ROW
+BEGIN
+    IF :NEW.orderplace_id IS NULL THEN
+        :NEW.orderplace_id := orderplace_seq.NEXTVAL;
+    END IF;
+END;
+/

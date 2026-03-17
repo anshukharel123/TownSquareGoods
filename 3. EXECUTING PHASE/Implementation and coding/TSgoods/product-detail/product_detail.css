@@ -1,0 +1,331 @@
+/* Header Styles */
+header input[type="search"] {
+	flex: 1;
+	margin: 0 1rem;
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 0.25rem;
+}
+
+/* Main Styles */
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	flex: 1;
+}
+
+/* Product Container Styles */
+.product-container {
+	display: flex;
+	align-items: start;
+	gap: 20px;
+	width: 100%;
+	max-width: 1200px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin-top: 50px;
+}
+
+/* Product Image Styles */
+.product-image {
+	min-width: 400px;
+	width: 300px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	display: inline-block;
+}
+.column{
+	flex:45%;
+	display: inline-block;
+}
+/* Product Details Styles */
+.product-details {
+	padding: 20px;
+	display: block;
+}
+
+/* Product Title Styles */
+.product-title {
+	font-size: 2.5rem;
+	margin-bottom: 15px;
+	color: #333;
+}
+
+/* Product Price Styles */
+.product-price {
+	font-size: 2rem;
+	color: #28a745;
+	margin-bottom: 15px;
+}
+
+/* Product Description Styles */
+.product-description {
+	margin-bottom: 20px;
+	font-size: 1.1rem;
+	color: #555;
+}
+
+/* Trader Info Styles */
+.trader-info {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+/* Trader Image Styles */
+.trader-img {
+	max-width: 50px;
+	height: auto;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+.buttons-container {
+	display: flex;
+	gap: 30px;
+}
+
+.button-wrapper {
+	flex: 1;
+}
+.wishlist{
+	width: 60px;
+	height: 60px;
+
+}
+/* Button Styles */
+.button {
+	background-color: #776B5D;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 0.25rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+/* Button Hover Styles */
+button:hover {
+	background-color: #776B5D;
+}
+
+/* Reviews Styles */
+.reviews {
+	width: 100%;
+	max-width: 1200px;
+	margin-top: 50px;
+}
+
+/* Review Header Styles */
+.reviews h3 {
+	margin-bottom: 20px;
+	text-align: left;
+	color: #333;
+}
+
+/* Review Styles */
+.review {
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+	transition: box-shadow 0.3s ease;
+}
+
+/* Review Hover Styles */
+.review:hover {
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Review Title Styles */
+.review h4 {
+	font-size: 1.5rem;
+	color: #007bff;
+	margin-bottom: 10px;
+}
+
+/* Review Paragraph Styles */
+.review p {
+	font-size: 1.1rem;
+	color: #555;
+}
+
+/* Customer Name Styles */
+.customer-name {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 5px;
+}
+
+/* Review Date Styles */
+.review-date {
+	font-size: 1rem;
+	color: #666;
+	margin-bottom: 5px;
+}
+
+/* Review Description Styles */
+.review-description {
+	font-size: 1.1rem;
+	color: #555;
+}
+
+/* Star Rating Styles */
+.star-rating {
+	color: #f8ce0b;
+}
+
+.star-rating input {
+	display: none;
+}
+
+.star-rating label {
+	font-size: 2rem;
+	cursor: pointer;
+	color: #ccc;
+}
+
+/* Star Rating Hover Styles */
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+	color: #ffdd00;
+}
+
+/* Checked Star Rating Styles */
+.star-rating input:checked ~ label {
+	color: #ffdd00;
+}
+
+/* Checked Star Rating Label Styles */
+.star-rating input:checked + label,
+.star-rating input:checked + label ~ label {
+	color: #ffdd00;
+}
+
+/* Add Review Section Styles */
+.add-review-section {
+	margin-top: 30px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-color: #f8f9fa;
+	width: 100%;
+	max-width: 1200px;
+}
+
+/* Add Review Section Title Styles */
+.add-review-section h3 {
+	margin-bottom: 20px;
+	text-align: center;
+	color: #333;
+}
+
+/* Add Review Section Star Rating Styles */
+.add-review-section .star-rating {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+/* Add Review Section Label Styles */
+.add-review-section label {
+	font-size: 1.2rem;
+	margin-right: 10px;
+	color: #333;
+}
+
+/* Add Review Section Textarea Styles */
+.add-review-section textarea {
+	resize: none;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 1rem;
+	color: #555;
+}
+
+/* Add Review Section Button Styles */
+.add-review-section .btn-primary {
+	display: block;
+	margin: 0 auto;
+	background-color: #776B5D;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	color: white;
+	font-size: 1.2rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+/* Add Review Section Button Hover Styles */
+.add-review-section .btn-primary:hover {
+	background-color: #0056b3;
+}
+
+
+.product-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.product-container > .product-detail,
+.product-container > .product-description
+.product-container > .product-title {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.product-container img {
+	max-width: 100%;
+	height: auto;
+}.quantity-form {
+	display: flex;
+	align-items: center;
+}
+
+.quantity-box {
+	border: 1px solid #ccc; /* Border style */
+	border-radius: 5px; /* Rounded corners */
+	display: flex;
+	align-items: center;
+	overflow: hidden; /* Ensure buttons don't overflow */
+}
+
+.quantity-button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+}
+
+.quantity-display {
+	margin: 0 20px;
+}
+
+.quantity-button svg {
+	width: 10px; 
+	height: 10px; 
+}
+
+
+
+.product-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+	grid-gap: 20px; /* Gap between columns */
+}
+
+.column {
+	padding: 10px; /* Adjust padding as needed */
+}
+
+.product-image {
+	width: 100%; /* Ensure image takes full width of its container */
+}

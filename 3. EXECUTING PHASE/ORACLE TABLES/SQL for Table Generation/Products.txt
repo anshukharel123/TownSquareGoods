@@ -1,0 +1,39 @@
+-- Butchers
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Meatloaf', 'Juicy Meatloaf', 'Meatloaf.avif', 20, 19.99, 'false', 'Piece', 'Contains chicken', 1);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Pork Ribs', 'Tender pork ribs', 'pork_ribs.jpg', 30, 12.99, 'false', 'Pack', 'Contains pork', 1);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Chicken Wings', 'Succulent chicken wings', 'chicken_wings.jpg', 50, 8.99, 'false', 'Pack', 'Contains poultry', 1);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Lamb Meet', 'Roast lamb Meet', 'lamb_.jpg', 25, 16.99, 'false', 'Pack', 'Contains lamb', 1);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Rabbit Meat', 'Lean Rabbit Meat ', 'Rabbit Meat.jpg', 40, 6.99, 'false', 'Pack', 'Contains Rabbit', 1);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Sausages', 'Gourmet sausages', 'sausages.avif', 35, 9.49, 'false', 'Pack', 'Contains buff', 1);
+
+-- Bakery
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Cinnamon', 'Nutritious cinnamon', 'cinnamon.jpg', 30, 3.99, 'false', 'Loaf', 'Contains gluten', 2);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Cookies', 'Delicious cookies', 'cookies.jpg', 50, 2.49, 'false', 'Piece', 'Contains gluten, dairy', 2);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Croissant', 'Classic italian croissant', 'croissant.jpg', 40, 3.99, 'false', 'Loaf', 'Contains gluten', 2);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Pretzels', 'Tempting pretzels', 'pretzels.jpg', 60, 2.99, 'false', 'Piece', 'Contains gluten, dairy', 2);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Scones', 'Moist scones', 'scones.jpg', 20, 12.99, 'false', 'Whole', 'Contains gluten, dairy', 2);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Tart', 'French chocolate tart', 'tart.webp', 35, 3.99, 'false', 'Piece', 'Contains gluten, dairy', 2);
+
+-- Fishmonger
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'COD', 'Fresh COD', 'COD.jpg', 50, 10.99, 'false', 'Piece', 'Contains fish', 3);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Fresh Calamari', 'Large calamari', 'Fresh Calamari.avif', 30, 14.99, 'false', 'Pack', 'Contains shellfish', 3);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Fresh Shrimp', 'Flaky fresh shrimp', 'Fresh Shrimp.avif', 40, 9.99, 'false', 'Pack', 'Contains fish', 3);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Salmon', 'Fresh salmon', 'Salmon.jpg', 25, 11.99, 'false', 'Pack', 'Contains shellfish', 3);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Tilapia', 'Fresh tilapia', 'Tilapia.webp', 60, 12.99, 'false', 'Pack', 'Contains fish', 3);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Tuna', 'Live tuna', 'Tuna.webp', 70, 5.99, 'false', 'Pack', 'Contains shellfish', 3);
+
+-- Delicatessen
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Anchovy', 'Smoked anchovy', 'achovy.jpg', 50, 7.99, 'false', 'Pack', 'Contains fish', 4);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Black Olives', 'Italian black olives', 'black olives.jpg', 40, 8.49, 'false', 'Pack', 'None', 4);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Breads', 'Smoked breads slices', 'breads.avif', 70, 6.49, 'false', 'Pack', 'Contains dairy', 4);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Cheddar Cheese', 'Corned cheddar cheese', 'cheddar cheese.webp', 30, 8.99, 'false', 'Pack', 'Contains dairy', 4);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Prosciutto', 'prosciutto slices ', 'prosciutto.jpg', 80, 5.99, 'false', 'Block', 'Contains chicken', 4);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Salami', 'Salami slices', 'salami.avif', 50, 7.99, 'false', 'Wheel', 'Contains pork', 4);
+
+-- Greengrocer
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Asparagus', 'Fresh, asparagus', 'Asparagus.webp', 100, 3.99, 'false', 'Punnet', 'None', 5);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Beet', 'Sweet, seedless beet', 'Beets.webp', 80, 2.99, 'false', 'Bunch', 'None', 5);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Carrots', 'Crisp, refreshing carrots', 'Carrot.jpg', 120, 1.49, 'false', 'Piece', 'None', 5);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Kale', 'Colorful bell kale', 'Kale.jpg', 90, 1.99, 'false', 'Piece', 'None', 5);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Onions', 'Fresh, nutritious onions', 'Onions.avif', 70, 1.99, 'false', 'Bunch', 'None', 5);
+INSERT INTO PRODUCT VALUES(product_seq.NEXTVAL, 'Tomatoes', 'Tender tomatoes', 'Tomatoes.jpg', 70, 2.49, 'false', 'Head', 'None', 5);

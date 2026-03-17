@@ -1,0 +1,9 @@
+CREATE OR REPLACE TRIGGER product_trigger
+BEFORE INSERT ON PRODUCT
+FOR EACH ROW
+BEGIN
+    IF :NEW.product_id IS NULL THEN
+        :NEW.product_id := product_seq.NEXTVAL;
+    END IF;
+END;
+/

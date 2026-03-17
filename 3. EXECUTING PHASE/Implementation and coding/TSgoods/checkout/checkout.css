@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	padding: 20px;
+	background-color: #F3EEEA;
+}
+
+.container {
+	margin-top: 60px;
+	margin-bottom: 30px;
+	display: flex;
+	padding: 10px;
+	place-items: center;
+}
+.space {
+	text-align: center;
+	padding: 5px;
+}
+.order-summary, .collection-details {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 10px;
+	background-color: white;
+	margin: 4px;
+	padding: 10px;
+	border-radius: 30px;
+	width: 49%;
+	place-items: center;
+	border: 1px solid #ccc;
+}
+.order-summary h4, .collection-details h4 {
+	display: block; 
+	width: 100%; 
+	text-align: center; 
+	margin-bottom: 10px;
+}
+.payment-method {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+/* Utility class for spacing */
+.mt-1 {
+	margin-top: 4px;
+}
+.summary-and-collection {
+	display: flex;
+	justify-content: space-between;
+}
