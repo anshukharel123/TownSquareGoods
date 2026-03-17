@@ -1,6 +1,0 @@
--- Insert 5 records into SHOP_REQUEST table
-INSERT INTO SHOP_REQUEST VALUES(shop_request_seq.NEXTVAL, '123  abc', 'Butchers', '12345', 'Butchers', 'Cuts of meat', 'Most trusted source for the meat', 'Yes', 'butcher.png', 1);
-INSERT INTO SHOP_REQUEST VALUES(shop_request_seq.NEXTVAL, '123  abc', 'Cafe Espresso', '12345', 'Bakery', 'Bread and pastries', 'Freshly baked goods', 'Yes','bakery.jpeg', 2);
-INSERT INTO SHOP_REQUEST VALUES(shop_request_seq.NEXTVAL, '123  abc', 'All Seafood', '12345', 'Fishmonger', 'Seafoods', 'Dive into freshness from the sea', 'Yes', 'fish.jpeg', 3);
-INSERT INTO SHOP_REQUEST VALUES (shop_request_seq.NEXTVAL, '123  abc', 'Deli Products ', '12345', 'Delicatessen', 'Deli meats and cheeses', 'Indulge in gourmet flavors', 'Yes','delicatessen.jpeg', 4);
-INSERT INTO SHOP_REQUEST VALUES(shop_request_seq.NEXTVAL, '123  abc', 'Green Veggies', '12345', 'Greengrocer', 'Organic fruits and vegetables', 'Healthy greens', 'Yes','veggies.jpeg', 5);
